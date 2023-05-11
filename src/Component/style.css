@@ -1,0 +1,25 @@
+body {  margin: 0px; 
+        padding:0; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: white; }
+
+ table {
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  width: 40%;
+
+}
+
+td, th {
+  border: 1px solid whitesmoke;
+  text-align: left;
+  padding: 7px;
+}
+
+
+hr {
+  color: #f3e9e9;
+  padding: 1.5px 1.5px ;
+  background-color: #ede5e5;
+
+}
