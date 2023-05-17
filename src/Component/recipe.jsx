@@ -1,6 +1,6 @@
 import React from "react";
 
-   export const recipes = [{
+   const recipes = [{
     id: 'greek-salad',
     name: 'Greek Salad',
     ingredients: [ 'tomatoes', 'cucumber', 'onion', 'olives', 'feta' ]
@@ -19,14 +19,14 @@ import React from "react";
   }
 ];
 
-const recipe = () => {
+const Recipe = () => {
 
     return (
 
         <div>
 
             <h2>Recipes</h2>
-            {recipe.map(recipe => (
+            {recipes.map((recipe) => (
                 <div key={recipe.id}>
                     <h2>{recipe.name}</h2>
                     <ul>
@@ -41,4 +41,4 @@ const recipe = () => {
     );
 };
 
-export default recipe;
+export default Recipe;
